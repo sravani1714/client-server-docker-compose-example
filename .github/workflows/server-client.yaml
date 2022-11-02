@@ -24,3 +24,9 @@ jobs:
       services: |
         server
         client
+       
+   - name: acessing server
+     run: curl localhost:1234/
+      
+           
+      
